@@ -59,16 +59,15 @@ text-classification-vectorization-comparison/
 
 The following results were obtained during the experiments:
 
-| Vectorization | Classifier / Configuration | Score |
+| Vectorization | Classifier / Configuration | Accuracy |
 |---|---|---:|
 | BoW | Gaussian Naive Bayes | 0.63645 |
 | BoW | Random Forest | 0.83575 |
 | BoW | Random Forest (max_features=3000) | 0.83976 |
 | Bigrams | Random Forest (max_features=5000) | 0.84326 |
 | TF-IDF | Random Forest | **0.84477** |
-| Word2Vec | Classifier to be documented | 0.77166 |
+| Word2Vec | Random Forest | 0.77166 |
 
-*Note: The evaluation metric and Word2Vec classifier configuration will be specified in the final experimental documentation.*
 
 ## Key Observations
 
