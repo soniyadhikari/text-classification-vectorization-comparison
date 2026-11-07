@@ -40,12 +40,17 @@ Uses word embeddings to represent words as dense numerical vectors that capture 
 ```text
 text-classification-vectorization-comparison/
 │
+├── dataset/
+│   └── README.md
+│
 ├── notebooks/
 │   ├── README.md
-│   ├── 01_BOW.ipynb
-│   ├── 02_N_Grams.ipynb
-│   ├── 03_TFIDF.ipynb
-│   └── 04_Word2Vec.ipynb
+│   ├── Text_Classification_BOW.ipynb
+│   ├── Text_Classification_Bigrams.ipynb
+│   ├── Text_Classification_Word2Vec.ipynb
+│   └── Text_Classification_tfidf.ipynb
+│
+├── requirements.txt
 │
 └── README.md
 ```
